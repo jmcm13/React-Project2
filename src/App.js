@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Routing from './components/Routing';
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>HELLO WORLD</h1>
-      </div>
+      <>
+        <Routing />
+      </>
     );
   }
 }
