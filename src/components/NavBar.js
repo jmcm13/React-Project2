@@ -23,10 +23,11 @@ export default function NavBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Weekly Assignment - Task 2
           </Typography>
-          <Button component={Link} to="/home" color="inherit">Home</Button>
-          <Button component={Link} to="/about" color="inherit">About Us</Button>
+          <Button component={Link} to="/taska" color="inherit">Task A</Button>
+          <Button component={Link} to="/taskb" color="inherit">Task B</Button>
+          <Button component={Link} to="/taskc" color="inherit">Task C</Button>
         </Toolbar>
       </AppBar>
     </Box>
